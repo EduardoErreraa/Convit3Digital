@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { Convidado, Evento } from 'core';
-import { prismaProvider } from 'src/db/prisma.provider';
+import { PrismaProvider } from 'src/db/prisma.provider';
 
 @Injectable()
 export class EventoPrisma {
-  constructor(readonly prisma: prismaProvider) {}
+  constructor(readonly prisma: PrismaProvider) {}
 
   salvar(evento: Evento) {
     return this.prisma.evento.create({

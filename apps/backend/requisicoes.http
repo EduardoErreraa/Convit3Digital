@@ -5,7 +5,7 @@ GET http://localhost:4000/ping
 GET http://localhost:4000/eventos
 
 ###
-GET http://localhost:4000/eventos/reuniao-familia-oliveira
+GET http://localhost:4000/eventos/semana-formacao-dev
 
 ###
 GET http://localhost:4000/eventos/5e25282b-cde5-45ff-9436-c4320d7c2f6f
@@ -19,7 +19,7 @@ Content-Type: application/json
 
 {
     "id": "65965e1c-8055-4795-b4a3-da93bbe97e31",
-    "senha": "familia2024!"
+    "senha": "familia2024"
 }
 
 ###
@@ -58,4 +58,5 @@ Content-Type: application/json
             "qtdeAcompanhantes": 10
         }
     ]
+
 }
